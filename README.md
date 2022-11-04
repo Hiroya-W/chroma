@@ -1,5 +1,5 @@
 # Chroma — A general purpose syntax highlighter in pure Go
-[![Golang Documentation](https://godoc.org/github.com/alecthomas/chroma?status.svg)](https://godoc.org/github.com/alecthomas/chroma) [![CI](https://github.com/alecthomas/chroma/actions/workflows/ci.yml/badge.svg)](https://github.com/alecthomas/chroma/actions/workflows/ci.yml) [![Slack chat](https://img.shields.io/static/v1?logo=slack&style=flat&label=slack&color=green&message=gophers)](https://invite.slack.golangbridge.org/)
+[![Golang Documentation](https://godoc.org/github.com/Hiroya-W/chroma?status.svg)](https://godoc.org/github.com/Hiroya-W/chroma) [![CI](https://github.com/Hiroya-W/chroma/actions/workflows/ci.yml/badge.svg)](https://github.com/Hiroya-W/chroma/actions/workflows/ci.yml) [![Slack chat](https://img.shields.io/static/v1?logo=slack&style=flat&label=slack&color=green&message=gophers)](https://invite.slack.golangbridge.org/)
 
 > **NOTE:** As Chroma has just been released, its API is still in flux. That said, the high-level interface should not change significantly.
 
@@ -34,33 +34,33 @@ translators for Pygments lexers and styles.
 <a id="markdown-supported-languages" name="supported-languages"></a>
 ## Supported languages
 
-Prefix | Language
-:----: | --------
-A | ABAP, ABNF, ActionScript, ActionScript 3, Ada, Angular2, ANTLR, ApacheConf, APL, AppleScript, Arduino, Awk
-B | Ballerina, Base Makefile, Bash, Batchfile, BibTeX, Bicep, BlitzBasic, BNF, Brainfuck
-C | C, C#, C++, Caddyfile, Caddyfile Directives, Cap'n Proto, Cassandra CQL, Ceylon, CFEngine3, cfstatement, ChaiScript, Chapel, Cheetah, Clojure, CMake, COBOL, CoffeeScript, Common Lisp, Coq, Crystal, CSS, Cython
-D | D, Dart, Diff, Django/Jinja, Docker, DTD, Dylan
-E | EBNF, Elixir, Elm, EmacsLisp, Erlang
-F | Factor, Fish, Forth, Fortran, FSharp
-G | GAS, GDScript, Genshi, Genshi HTML, Genshi Text, Gherkin, GLSL, Gnuplot, Go, Go HTML Template, Go Text Template, GraphQL, Groff, Groovy
-H | Handlebars, Haskell, Haxe, HCL, Hexdump, HLB, HLSL, HTML, HTTP, Hy
-I | Idris, Igor, INI, Io
-J | J, Java, JavaScript, JSON, Julia, Jungle
-K | Kotlin
-L | Lighttpd configuration file, LLVM, Lua
-M | Mako, markdown, Mason, Mathematica, Matlab, MiniZinc, MLIR, Modula-2, MonkeyC, MorrowindScript, Myghty, MySQL
-N | NASM, Newspeak, Nginx configuration file, Nim, Nix
-O | Objective-C, OCaml, Octave, OnesEnterprise, OpenEdge ABL, OpenSCAD, Org Mode
-P | PacmanConf, Perl, PHP, PHTML, Pig, PkgConfig, PL/pgSQL, plaintext, Pony, PostgreSQL SQL dialect, PostScript, POVRay, PowerShell, Prolog, PromQL, Properties, Protocol Buffer, PSL, Puppet, Python 2, Python
-Q | QBasic
-R | R, Racket, Ragel, Raku, react, ReasonML, reg, reStructuredText, Rexx, Ruby, Rust
-S | SAS, Sass, Scala, Scheme, Scilab, SCSS, Sed, Smalltalk, Smarty, Snobol, Solidity, SPARQL, SQL, SquidConf, Standard ML, Stylus, Svelte, Swift, SYSTEMD, systemverilog
-T | TableGen, TASM, Tcl, Tcsh, Termcap, Terminfo, Terraform, TeX, Thrift, TOML, TradingView, Transact-SQL, Turing, Turtle, Twig, TypeScript, TypoScript, TypoScriptCssData, TypoScriptHtmlData
-V | VB.net, verilog, VHDL, VHS, VimL, vue
-W | WDTE
-X | XML, Xorg
-Y | YAML, YANG
-Z | Zig
+| Prefix | Language                                                                                                                                                                                                          |
+| :----: | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+|   A    | ABAP, ABNF, ActionScript, ActionScript 3, Ada, Angular2, ANTLR, ApacheConf, APL, AppleScript, Arduino, Awk                                                                                                        |
+|   B    | Ballerina, Base Makefile, Bash, Batchfile, BibTeX, Bicep, BlitzBasic, BNF, Brainfuck                                                                                                                              |
+|   C    | C, C#, C++, Caddyfile, Caddyfile Directives, Cap'n Proto, Cassandra CQL, Ceylon, CFEngine3, cfstatement, ChaiScript, Chapel, Cheetah, Clojure, CMake, COBOL, CoffeeScript, Common Lisp, Coq, Crystal, CSS, Cython |
+|   D    | D, Dart, Diff, Django/Jinja, Docker, DTD, Dylan                                                                                                                                                                   |
+|   E    | EBNF, Elixir, Elm, EmacsLisp, Erlang                                                                                                                                                                              |
+|   F    | Factor, Fish, Forth, Fortran, FSharp                                                                                                                                                                              |
+|   G    | GAS, GDScript, Genshi, Genshi HTML, Genshi Text, Gherkin, GLSL, Gnuplot, Go, Go HTML Template, Go Text Template, GraphQL, Groff, Groovy                                                                           |
+|   H    | Handlebars, Haskell, Haxe, HCL, Hexdump, HLB, HLSL, HTML, HTTP, Hy                                                                                                                                                |
+|   I    | Idris, Igor, INI, Io                                                                                                                                                                                              |
+|   J    | J, Java, JavaScript, JSON, Julia, Jungle                                                                                                                                                                          |
+|   K    | Kotlin                                                                                                                                                                                                            |
+|   L    | Lighttpd configuration file, LLVM, Lua                                                                                                                                                                            |
+|   M    | Mako, markdown, Mason, Mathematica, Matlab, MiniZinc, MLIR, Modula-2, MonkeyC, MorrowindScript, Myghty, MySQL                                                                                                     |
+|   N    | NASM, Newspeak, Nginx configuration file, Nim, Nix                                                                                                                                                                |
+|   O    | Objective-C, OCaml, Octave, OnesEnterprise, OpenEdge ABL, OpenSCAD, Org Mode                                                                                                                                      |
+|   P    | PacmanConf, Perl, PHP, PHTML, Pig, PkgConfig, PL/pgSQL, plaintext, Pony, PostgreSQL SQL dialect, PostScript, POVRay, PowerShell, Prolog, PromQL, Properties, Protocol Buffer, PSL, Puppet, Python 2, Python       |
+|   Q    | QBasic                                                                                                                                                                                                            |
+|   R    | R, Racket, Ragel, Raku, react, ReasonML, reg, reStructuredText, Rexx, Ruby, Rust                                                                                                                                  |
+|   S    | SAS, Sass, Scala, Scheme, Scilab, SCSS, Sed, Smalltalk, Smarty, Snobol, Solidity, SPARQL, SQL, SquidConf, Standard ML, Stylus, Svelte, Swift, SYSTEMD, systemverilog                                              |
+|   T    | TableGen, TASM, Tcl, Tcsh, Termcap, Terminfo, Terraform, TeX, Thrift, TOML, TradingView, Transact-SQL, Turing, Turtle, Twig, TypeScript, TypoScript, TypoScriptCssData, TypoScriptHtmlData                        |
+|   V    | VB.net, verilog, VHDL, VHS, VimL, vue                                                                                                                                                                             |
+|   W    | WDTE                                                                                                                                                                                                              |
+|   X    | XML, Xorg                                                                                                                                                                                                         |
+|   Y    | YAML, YANG                                                                                                                                                                                                        |
+|   Z    | Zig                                                                                                                                                                                                               |
 
 
 _I will attempt to keep this section up to date, but an authoritative list can be
@@ -75,9 +75,9 @@ Try out various languages and styles on the [Chroma Playground](https://swapoff.
 ## Using the library
 
 Chroma, like Pygments, has the concepts of
-[lexers](https://github.com/alecthomas/chroma/tree/master/lexers),
-[formatters](https://github.com/alecthomas/chroma/tree/master/formatters) and
-[styles](https://github.com/alecthomas/chroma/tree/master/styles).
+[lexers](https://github.com/Hiroya-W/chroma/tree/master/lexers),
+[formatters](https://github.com/Hiroya-W/chroma/tree/master/formatters) and
+[styles](https://github.com/Hiroya-W/chroma/tree/master/styles).
 
 Lexers convert source text into a stream of tokens, styles specify how token
 types are mapped to colours, and formatters convert tokens and styles into
@@ -216,7 +216,7 @@ python3 _tools/pygments2chroma_xml.py \
   > lexers/embedded/kotlin.xml
 ```
 
-See notes in [pygments-lexers.txt](https://github.com/alecthomas/chroma/blob/master/pygments-lexers.txt)
+See notes in [pygments-lexers.txt](https://github.com/Hiroya-W/chroma/blob/master/pygments-lexers.txt)
 for a list of lexers, and notes on some of the issues importing them.
 
 <a id="markdown-formatters" name="formatters"></a>
@@ -236,7 +236,7 @@ Chroma styles are defined in XML. The style entries use the
 All Pygments styles have been converted to Chroma using the `_tools/style.py`
 script.
 
-When you work with one of [Chroma's styles](https://github.com/alecthomas/chroma/tree/master/styles), 
+When you work with one of [Chroma's styles](https://github.com/Hiroya-W/chroma/tree/master/styles), 
 know that the `Background` token type provides the default style for tokens. It does so
 by defining a foreground color and background color.
 
@@ -256,7 +256,7 @@ For a quick overview of the available styles and how they look, check out the [C
 
 A command-line interface to Chroma is included.
 
-Binaries are available to install from [the releases page](https://github.com/alecthomas/chroma/releases).
+Binaries are available to install from [the releases page](https://github.com/Hiroya-W/chroma/releases).
 
 The CLI can be used as a preprocessor to colorise output of `less(1)`,
 see documentation for the `LESSOPEN` environment variable.

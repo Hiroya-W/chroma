@@ -15,8 +15,8 @@ TEMPLATE = r'''
 package {{package}}
 
 import (
-	. "github.com/alecthomas/chroma/v2" // nolint
-	"github.com/alecthomas/chroma/v2/lexers/internal"
+	. "github.com/Hiroya-W/chroma/v2" // nolint
+	"github.com/Hiroya-W/chroma/v2/lexers/internal"
 )
 
 // {{upper_name}} lexer.

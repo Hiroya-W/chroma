@@ -5,8 +5,8 @@ import (
 
 	assert "github.com/alecthomas/assert/v2"
 
-	"github.com/alecthomas/chroma/v2"
-	"github.com/alecthomas/chroma/v2/lexers"
+	"github.com/Hiroya-W/chroma/v2"
+	"github.com/Hiroya-W/chroma/v2/lexers"
 )
 
 func TestIssue290(t *testing.T) {

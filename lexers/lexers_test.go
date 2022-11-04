@@ -12,10 +12,10 @@ import (
 	assert "github.com/alecthomas/assert/v2"
 	"github.com/alecthomas/repr"
 
-	"github.com/alecthomas/chroma/v2"
-	"github.com/alecthomas/chroma/v2/formatters"
-	"github.com/alecthomas/chroma/v2/lexers"
-	"github.com/alecthomas/chroma/v2/styles"
+	"github.com/Hiroya-W/chroma/v2"
+	"github.com/Hiroya-W/chroma/v2/formatters"
+	"github.com/Hiroya-W/chroma/v2/lexers"
+	"github.com/Hiroya-W/chroma/v2/styles"
 )
 
 func TestCompileAllRegexes(t *testing.T) {

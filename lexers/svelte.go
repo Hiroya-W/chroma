@@ -1,7 +1,7 @@
 package lexers
 
 import (
-	. "github.com/alecthomas/chroma/v2" // nolint
+	. "github.com/Hiroya-W/chroma/v2" // nolint
 )
 
 // Svelte lexer.

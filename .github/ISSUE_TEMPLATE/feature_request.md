@@ -9,6 +9,6 @@ assignees: ''
 
 **What problem does this feature solve?**
 
-Please check the Chroma [README](https://github.com/alecthomas/chroma) and command-line tool to ensure this isn't an already solved problem.
+Please check the Chroma [README](https://github.com/Hiroya-W/chroma) and command-line tool to ensure this isn't an already solved problem.
 
 **What feature do you propose?**

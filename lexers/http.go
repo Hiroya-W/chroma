@@ -3,7 +3,7 @@ package lexers
 import (
 	"strings"
 
-	. "github.com/alecthomas/chroma/v2" // nolint
+	. "github.com/Hiroya-W/chroma/v2" // nolint
 )
 
 // HTTP lexer.

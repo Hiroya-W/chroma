@@ -3,8 +3,8 @@ package formatters
 import (
 	"testing"
 
+	"github.com/Hiroya-W/chroma/v2"
 	assert "github.com/alecthomas/assert/v2"
-	"github.com/alecthomas/chroma/v2"
 )
 
 func TestClosestColour(t *testing.T) {

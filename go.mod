@@ -1,4 +1,4 @@
-module github.com/alecthomas/chroma/v2
+module github.com/Hiroya-W/chroma/v2
 
 go 1.19
 
